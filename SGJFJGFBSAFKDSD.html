@@ -1,0 +1,2012 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://www.typing.com/student/test/1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./SGJFJGFBSAFKDSD_files/8a681dbb8f"></script><script src="./SGJFJGFBSAFKDSD_files/nr-1044.min.js.download"></script><script src="./SGJFJGFBSAFKDSD_files/osd.js.download"></script><script src="./SGJFJGFBSAFKDSD_files/ads"></script><script async="" src="./SGJFJGFBSAFKDSD_files/analytics.js.download"></script><script async="" type="text/javascript" src="./SGJFJGFBSAFKDSD_files/gpt.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=980">
+<meta name="description" content="World&#39;s most trusted free typing tutor! Perfect for all ages &amp; levels, K-12 and beyond.">
+<link rel="icon" href="https://www.typing.com/favicon.ico">
+<title>1 Minute Typing Test - Typing.com</title>
+<script>
+            /**
+             * 0 = hash
+             * 1 = userid
+             * 2 = membership (1 = free, 2 = paid)
+             * 3 = remember (ignored)
+             **/
+            function loc(index) {
+                var parts = [];
+                document.cookie.split(/;\s*/g).forEach(function(r){
+                    var x = r.split('=');
+                    if (x[0] == 'userrem'){
+                        parts = decodeURIComponent(x[1]).split(/</g);
+                    }
+                });
+                return parts[index];
+            }
+            function loggedIn() {if(parseInt(loc(1))){return true;}return false;}
+            function paid() {if((parseInt(loc(1)) && parseInt(loc(2)) == 2) || !localStorage.getItem('DEF56?E0A286D')){return true;}return false;} // localStorage is rot47('student_pages')
+            window.adRand = Math.floor(Math.random() * 20);
+            if(navigator.userAgent.match(/MSIE|rv:11/)){
+                window.adRand = 0;
+            }
+            function skinId() {
+	            var skinId;
+	            document.cookie.split(/;\s*/g).forEach(function(r){
+		            var x = r.split('=');
+		            if (x[0] == 'tc_skin'){
+			            skinId = x[1];
+		            }
+	            });
+	            return skinId || '0';
+            }
+        </script>
+<script>
+                var FTWTEMPLATES = {};
+    var FTWGLOBALS = (function(){
+    var globals = {
+    loggedIn: loggedIn(),
+    env: 'production',
+    page: 'testcontent'
+    };
+
+                        globals.minutes = "1";
+                    globals.lesson = {"lesson_id":385,"course":"test","language":"en","name":"Typing Test","description":null,"teacher_notes":"","intro":"Typing","congrats":"<p>Great job!  You completed the typing test.  You can now print your beautiful personalized typing certificate!<\/p>","badge":1,"min_accuracy":50,"screens":10,"sort_order":999,"active":1,"updated_at":0,"created_at":0};
+                    globals.course = [{"course":"beginner","sort_order":1,"type":"standard","name":"Beginner"},{"course":"intermediate","sort_order":2,"type":"standard","name":"Intermediate"},{"course":"advanced","sort_order":3,"type":"standard","name":"Advanced"},{"course":"practice","sort_order":4,"type":"standard","name":"Practice"},{"course":"test","sort_order":5,"type":"test","name":"Typing Tests"}];
+                    globals.screens = [{"lesson_screen_id":115855,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Sports Scholarship","content":"You might be one of those people that perform\r\nvery well when it comes to sports. If you are\r\nand you are in high school, you might have the\r\nidea that your ability at a given sport could\r\nend up putting you in line for a sports\r\nscholarship that will either entirely pay for\r\ncollege, or at least partially pay for your\r\nhigher education. However, there is more to\r\ngetting a scholarship than just being good at\r\nsports. One thing you have to understand is that\r\nwith sports scholarships there are a few ways to\r\nget them. For some, especially in the more high\r\nprofile sports like football and basketball, you\r\nhave a good chance at being recruited. Not all\r\nscholarships that are sports related come from\r\nathletes being recruited. In many cases, if you\r\nare looking for a sports scholarship, for\r\nwhatever sport you happen to play, you might\r\njust have to ask. With so many high school\r\nathletes, it is conceivable that your talents at\r\na given sport are head and shoulders above most\r\npeople; but there is still the possibility you\r\nwill be overlooked. There are too many athletes\r\nand only a small number of coaches and recruits,\r\ncomparatively speaking. Sometimes you will have\r\nto contact a coach yourself, offer them up your\r\nstatistics, not only on the field of play but\r\nyour grades as well. However, if you have the\r\nskills and you have the talent, and of course\r\nyou'll need the grades as well, you will\r\neventually find a sports scholarship that fits\r\nyour needs. The fact is that there are plenty of\r\nsports scholarship to go around. Some might be\r\nfull scholarships, others might be partial\r\nscholarships, and it is wise to not get too far\r\nahead of yourself and look for full scholarships\r\nas the only option. While they do exist, they\r\nare not easy to get and when it comes to paying\r\nfor college these days, any help paying for it\r\nis welcome, or at least it should be.","intro":"","sort_order":1,"updated_at":0,"created_at":0},{"lesson_screen_id":115856,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Mountain Biking","content":"The sport of mountain biking is one of the best\r\nactive sports you can do for a number of fitness\r\nreasons and depending on what style of mountain\r\nbiking you partake in, it can also be a great\r\ndeal of fun and will keep you fit at the same\r\ntime. People are usually unaware of how many\r\nmuscles you use when riding a mountain bike, and\r\nhow quickly you can burn calories as it can be\r\nan extremely good work out for the body. If you\r\nplan on riding cross country along different\r\nstyles of trails, riding a bike can be quite a\r\ntask. If you're riding over long distances up\r\nand down hills it can be very exhausting on the\r\nlegs and the lower back. So if you are just\r\nstarting to ride bikes for the first time,\r\nplease don't just jump on the bike and go for a\r\n20 mile ride as it may do you more harm than\r\ngood. One thing that is recommended is to do\r\nshort rides to start with, only a couple of\r\nmiles which will take no time at all on a bike,\r\nto get your fitness training up to par before\r\nstarting a longer bike ride. All of the major\r\nathletes in the sport will tell you that\r\ntraining is important and you should take part\r\nin mountain bike fitness training whenever the\r\nopportunity arises. One of the major benefits of\r\nriding a mountain bike on a regular basis is\r\nthat in order to ride your bike you use some of\r\nlargest muscles in the body which in turn will\r\nburn off fat quickly. This will of course help\r\nyou to lose weight and the more you ride your\r\nbike the more weight you will lose. When you\r\nride your bike on flat ground at a slower speed\r\nyou are still burning a great amount of calories\r\ndue to the fact that you will be able to\r\ncontinue that pedaling motion for a longer\r\nperiod of time. This is also perfect for people\r\nwho don't have the stamina for a highly\r\nintensive ride at different speeds and climbs.","intro":"","sort_order":2,"updated_at":0,"created_at":0},{"lesson_screen_id":115857,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"They're Minerals Marie!","content":"Sedimentary rocks are formed at the surface of\r\nthe Earth, either in water or on land. They are\r\nlayered accumulations of sediments, fragments of\r\nrocks, minerals, or animal or plant material. If\r\na layer of sediment is buried beneath overlying\r\nrock, the layer becomes compacted and may form a\r\nlayer of sedimentary rock. The sediment becomes\r\ncemented together by minerals and chemicals or\r\nis held together by electrical attraction. Sand\r\nand gravel deposits on beaches or in river bars\r\nlook like the sandstone and conglomerate they\r\nmay become. Compacted and dried mud flats harden\r\ninto shale. Mud and shells settling on sea\r\nfloors can cement into limestone. Sedimentary\r\nrocks are important sources of natural resources\r\nlike coal, fossil fuels, drinking water or ores.\r\nFire is a chemical reaction between fuel and\r\noxygen. Heat is necessary to ignite the\r\nreaction. Once a fire has been started, it\r\ncreates enough heat as a byproduct to keep\r\nigniting new fuels. In nature, fuels can be\r\npreheated by the sun. This can make them more\r\nlikely to ignite, either by human error, like a\r\ndropped cigarette or unattended campfire, or by\r\nlightning. Fuels themselves are abundant,\r\nespecially in forests that have not burned in\r\nrecent years. Oxygen is readily available in the\r\nair we breathe. It has about 21% oxygen in it.\r\nThe positive effects of fire include stimulating\r\ngrowth and maintaining various ecological\r\nsystems. The negative effects include water\r\ncontamination, soil erosion, atmospheric\r\npollution and hazard to human and animal life.\r\nAn earthquake is the result of a sudden release\r\nof energy in the Earth's crust producing seismic\r\nwaves. Earthquakes occur most often along\r\ngeological faults. They are measured using\r\nobservations from seismometers. Magnitude 3 or\r\nlower earthquakes are mostly undetectable and\r\nmagnitude 7 or greater can cause serious damage\r\nover large areas, depending on their depth. The\r\nshallower an earthquake, the more damage to\r\nstructures it causes. At the Earth's surface,\r\nearthquakes manifest themselves by shaking and\r\nsometimes displacement of the ground. When the\r\nepicenter of a large earthquake is located\r\noffshore, the seabed may be displaced\r\nsufficiently to cause a tsunami. Earthquakes can\r\nalso trigger landslides, and volcanic activity.","intro":"","sort_order":3,"updated_at":0,"created_at":0},{"lesson_screen_id":115858,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Hypno Toad","content":"Tiny poison dart frogs may only be one inch\r\nlong, but they pack a powerful punch, of poison.\r\nWeighing less than an ounce, these frogs are\r\nconsidered one of Earth's most toxic species.\r\nFor example, the golden poison dart frog has\r\nenough poison to kill 20,000 mice. With a range\r\nof bright colors, yellows, oranges, reds,\r\ngreens, blues, they aren't just big show offs,\r\neither. Those colorful designs tell potential\r\npredators, \"I'm toxic; don't eat me\". Scientists\r\nthink that poison dart frogs get their toxicity\r\nfrom some of the insects they eat. The insects\r\nfeed on plants that have toxins, which then pass\r\nto the frogs when they eat the insects. Poison\r\ndart frogs raised in captivity aren't toxic\r\nbecause the insects they are fed haven't eaten\r\npoisonous plants. How do poison dart frogs\r\ncapture their prey? With a long, sticky tongue\r\nthat darts out and zaps the unsuspecting bug!\r\nThe frogs eat many kinds of small insects,\r\nincluding fruit flies, ants, and tiny beetles,\r\nwhich are the ones scientists think may be\r\nresponsible for the frogs' toxicity. Poison dart\r\nfrogs live in the rain forests of central and\r\nsouth America and breed during the rainy season.\r\nTo attract a female, the male frog calls from a\r\nleaf, making buzzing or trilling sounds. After\r\nhe's attracted a mate and she lays her eggs, the\r\nmale sticks around to make sure the eggs stay\r\nmoist until they hatch. Once the little ones\r\nhatch, as tiny tadpoles, they wiggle on to the\r\nmale's back. He carries them to a pool of water,\r\nwhere the tadpoles wiggle off and complete their\r\nmetamorphosis into fully formed frogs.","intro":"","sort_order":4,"updated_at":0,"created_at":0},{"lesson_screen_id":115862,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Titanic Lessons","content":"In 1912, Titanic is the largest man made moving\r\nobject in the world. She is as long as four city\r\nblocks and wider than a four lane highway. Some\r\npeople say she is unsinkable. No expense has\r\nbeen spared to build her. She is grand in every\r\nway. Many wealthy and important people are\r\nonboard for this trip. Tonight, the water is\r\ncalm. It looks as smooth as glass. Yet there may\r\nbe danger. Suddenly, something is seen ahead. It\r\nlooks dark against the starry sky. It's big and\r\nit's close. Iceberg right ahead! Titanic moves\r\nnearer and nearer to the iceberg. Slowly, the\r\nship begins to swing away. It looks like the\r\nship might miss the iceberg. Then comes a\r\ngrinding sound. Under the water, the iceberg is\r\nmuch wider than it looks. Titanic scrapes\r\nagainst it. The iceberg has slashed holes in the\r\nside of one of the furnace rooms. As water\r\ngushes through the holes, it nearly sweeps the\r\ncrewmen off their feet. Within minutes, the\r\ncold, swirling seawater is up to their waists.\r\nSeawater is also gushing through holes torn into\r\nother sections of the ship. Titanic's hull has\r\n16 sections. Doors can seal off each section if\r\nthey are damaged. The officer on the bridge\r\norders all the doors closed. He hopes this will\r\nprevent disaster. He doesn't know that it's\r\nalready too late. The doors slow, but cannot\r\nstop, the water. That's because the walls don't\r\nreach the ceiling. As seawater fills each\r\nsection, the water spills over the wall into the\r\nnext section. The first five sections soon fill\r\nwith water.","intro":"","sort_order":5,"updated_at":0,"created_at":0},{"lesson_screen_id":115860,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Chubby Bunny","content":"As the number of overweight children in the\r\nUnited States continues to climb, fitness is a\r\nconsideration that weighs heavily on the minds\r\nof parents, caregivers and teachers. The risk of\r\nhealth issues accompanying obesity among\r\nchildren provokes many fears that unless parents\r\nand children make significant changes in the\r\nlifestyles inhabited by our kids, diabetes,\r\nheart disease, and other weight related\r\nconditions have the potential to run rampant\r\namong American youth. Although encouraging a\r\nhealthy lifestyle, among children, that includes\r\nphysical activity and fitness is vital to\r\naddressing issues associated with health\r\nproblems and obesity, the addition of kid's\r\nfitness can also promote a lifelong love.\r\nFitness not only encourages physical activity,\r\nkeeping weight and accompanying conditions at\r\nbay, it also helps protect children from\r\ninjuries that can occur when they are not\r\naccustomed to physical activity, movement and\r\nsports. Most injuries that plague children\r\ncompleting physical activities occur as a result\r\nof a lifestyle that lacks movement and activity\r\nthat can provide balance, coordination and\r\nmuscle memory necessary for a fit lifestyle.\r\nDespite statistics praising physical activity\r\namong children as a weight management tool and\r\nmethod of decreasing injuries during activities\r\nand sports, fitness among children boasts a\r\nplethora of positive results and side effects.\r\nStrong bones and joints, stress relief, self\r\nconfidence improvement and better academic\r\nconcentration are just some of the other\r\nbenefits touted by a child's active lifestyle.\r\nUnderstanding what types of activities and\r\nscheduling conflicts are preventing a child from\r\nobtaining a sufficient amount of physical\r\nactivity and fitness can be a good way for\r\nparents to begin to understand how and where\r\ntransformations can be made regarding kids'\r\nhealth. Tracking the amount of activity a child\r\npartakes can be as simple as gaining an\r\nawareness of their school schedules and whether\r\nthey include physical education classes, recess\r\nand other ways children participate in fitness\r\ncentered activities. Children who participate in\r\na variety of physically demanding activities at\r\nschool, such as extracurricular athletics or PE\r\nclasses may not need as much prompting and extra\r\nfitness added to their day as a child who spends\r\nmore time still and sedentary. One of the best\r\nways parents, caregivers and teachers can prompt\r\nchildren to compete in fitness activities and\r\ngrasp a healthy lifestyle is by striving toward\r\nadopting a similar lifestyle that promotes and\r\nvalues physical activity. Children with even one\r\nobese parent have a 50 percent chance of being\r\nobese themselves. Children with two obese\r\nparents have an 80 percent chance of following\r\nin their footsteps. Children who observe healthy\r\nlifestyles in their parents and role models have\r\na better chance of adopting similar habits,\r\nhighlighting the vital role parents play in\r\ninfluencing the fitness levels and physical\r\nactivity of children.","intro":"","sort_order":6,"updated_at":0,"created_at":0},{"lesson_screen_id":115863,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Iceland","content":"Hike through one of Iceland's many ancient lava\r\nfields. You might notice something strange. The\r\nground in front of you is steaming. Plumes of\r\nwhite steam rise from the ground. Iceland is\r\ncovered with steam vents and hot springs. The\r\nsteam comes from naturally heated rocks and hot\r\nwater below Earth's surface. The most famous of\r\nIceland's bubbling hot springs is Blue lagoon.\r\nIt is not far from the country's capital city.\r\nYou can visit the lagoon and soak in its\r\nsoothing, milky blue waters. Minerals and white\r\nmud in the water make your skin as soft as a\r\nnewborn baby's skin. Icelanders tap into the\r\nnatural hot water for more than soaking. They\r\nharness steam from hot water to spin turbines\r\nand create electricity. People use the\r\nelectricity to heat homes and even greenhouses.","intro":"","sort_order":7,"updated_at":0,"created_at":0},{"lesson_screen_id":115864,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Gitbox","content":"Learning to play the guitar can be an extremely\r\nrewarding experience, but it is made even more\r\nso if you find the right teacher who is also a\r\nguide that will help you achieve your musical\r\ngoals with the right resources. The best\r\nteachers always prepare and have a plan: it's\r\nsaid in teaching that for every hour of teaching\r\nyou need to prepare twice as much. You should be\r\nable to tell whether you're dealing with a\r\nprofessional just with your first meeting. They\r\nwill determine where you are, where you are\r\ntrying to go and then propose a method for\r\ngetting you there. If you can tell that your\r\nprospective teacher hasn't prepared for the\r\nlesson and looks like they are making up stuff\r\non the spot, they probably are. Get away as fast\r\nas you can.","intro":"","sort_order":8,"updated_at":0,"created_at":0},{"lesson_screen_id":115865,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Water","content":"Water covers 70 percent of Earth's surface, yet\r\nmost of it is unusable, which is why many people\r\naround the world struggle to get enough of it.\r\nNearly 97 percent is salty or otherwise\r\nundrinkable. Another two percent is locked up in\r\nglaciers and ice caps. That leaves only one\r\npercent. People, plants, and animals depend on\r\nthat one percent of fresh water. Each drop of\r\nwater is always on the move. The water we drink\r\nis a liquid. It can also be a solid or a vapor.\r\nNo matter what state of matter it's in, all\r\nwater is connected. It constantly moves through\r\nan endless cycle above, on, and through Earth.\r\nThe amount of water on our planet never changes.\r\nThere is the same amount now as there was when\r\nEarth formed.","intro":"","sort_order":9,"updated_at":0,"created_at":0},{"lesson_screen_id":115866,"lesson_id":385,"key_row":"mixed","screen_type":"standard","title":"Death Valley","content":"Valuable ores lay hidden beneath Death Valley.\r\nThese treasures included gold and silver. When\r\nminers gave up on the gold fields in other parts\r\nof California, many came to the desert. Most\r\nmining settlements followed a predictable\r\npattern. First came the prospectors. They\r\nsearched for gold deposits. When they made a\r\nstrike, they staked a claim. Then they either\r\nworked the claim themselves or sold it. Miners\r\ncame to Death Valley for more than gold. Some\r\ncame to mine a kind of salt. People used the\r\nsalt to make a substance called borax. It was\r\nused to make glass, ceramics, and cleaning\r\nproducts.","intro":"","sort_order":10,"updated_at":0,"created_at":0}];
+            
+    return function(key) {
+    if (typeof globals[key] == 'undefined') {
+    console.error('Missing FTWGLOBALS var: ' + key);
+    }
+    return globals[key];
+    };
+    })();
+        </script>
+<script type="text/javascript">
+	function adHeaders(adCategory, adSizes) {
+		if(FTWGLOBALS('env') == 'local') return;
+		if(paid()) return;
+
+		adCategory = adCategory || 'other';
+		adSizes = adSizes || ['160x600','728x90'];
+
+		window.googletag = window.googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') +
+			'//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+
+
+		if(window.adRand) {
+			googletag.cmd.push(function() {
+				if(adCategory == 'tutor' && adSizes.indexOf('160x600') !== -1){
+					googletag.defineSlot('/35254017/TW_160x600_Tutor_ROS_Floor1', [160, 600], 'div-gpt-ad-1417386788824-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'tutor' && adSizes.indexOf('728x90') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Tutor_ATF_Floor1', [728, 90], 'div-gpt-ad-1417386975618-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'tutor' && adSizes.indexOf('728x90_2') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Tutor_BTF_Floor1', [728, 90], 'div-gpt-ad-1417387046108-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'other' && adSizes.indexOf('728x90') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Other_ATF_Floor1', [728, 90], 'div-gpt-ad-1417386847302-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'other' && adSizes.indexOf('728x90_2') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Other_BTF_Floor1', [728, 90], 'div-gpt-ad-1417386907462-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'other' && adSizes.indexOf('160x600') !== -1){
+					googletag.defineSlot('/35254017/TW_160x600_Other_ROS_Floor1', [160, 600], 'div-gpt-ad-1417386724995-0').addService(googletag.pubads());
+				}
+
+				googletag.pubads().enableSingleRequest();
+				googletag.enableServices();
+			});
+		} else {
+			googletag.cmd.push(function() {
+				if(adCategory == 'tutor' && adSizes.indexOf('160x600') !== -1){
+					googletag.defineSlot('/35254017/TW_160x600_Tutor_ROS', [160, 600], 'div-gpt-ad-1417386766214-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'tutor' && adSizes.indexOf('728x90') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Tutor_ATF', [728, 90], 'div-gpt-ad-1417386955179-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'tutor' && adSizes.indexOf('728x90_2') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Tutor_BTF', [728, 90], 'div-gpt-ad-1417387022672-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'other' && adSizes.indexOf('728x90') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Other_ATF', [728, 90], 'div-gpt-ad-1417386827185-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'other' && adSizes.indexOf('728x90_2') !== -1){
+					googletag.defineSlot('/35254017/TW_728x90_Other_BTF', [728, 90], 'div-gpt-ad-1417386881869-0').addService(googletag.pubads());
+				}
+
+				if(adCategory == 'other' && adSizes.indexOf('160x600') !== -1){
+					googletag.defineSlot('/35254017/TW_160x600_Other_ROS', [160, 600], 'div-gpt-ad-1417386698845-0').addService(googletag.pubads());
+				}
+
+				googletag.pubads().enableSingleRequest();
+				googletag.enableServices();
+			});
+		}
+	}
+</script>
+<script>adHeaders('tutor','')</script>
+<style>
+            @font-face {
+                font-family: 'Museo Sans Rounded';
+                font-weight: 300;
+                src: url('/fonts/MuseoSans-300.woff');
+            }
+
+            @font-face {
+                font-family: 'Museo Sans Rounded';
+                font-weight: 500;
+                src: url('/fonts/MuseoSans-500.woff');
+            }
+
+            @font-face {
+                font-family: 'Museo Sans Rounded';
+                font-weight: 700;
+                src: url('/fonts/MuseoSans-700.woff');
+            }
+
+            @font-face {
+                font-family: 'Museo Sans Rounded';
+                font-weight: 900;
+                src: url('/fonts/MuseoSans-900.woff');
+            }
+
+            @font-face {
+                font-family: 'Museo Sans Rounded';
+                font-weight: bold;
+                src: url('/fonts/MuseoSans-900.woff');
+            }
+
+            @font-face {
+                font-family: 'PT Mono';
+                font-weight: 500;
+                src: url('/fonts/PTMono55.woff');
+            }
+        </style>
+<link rel="stylesheet" href="./SGJFJGFBSAFKDSD_files/app.173.css">
+
+<script src="./SGJFJGFBSAFKDSD_files/keyboards.min.173.js.download"></script>
+<script src="./SGJFJGFBSAFKDSD_files/templates.min.173.js.download"></script>
+<script src="./SGJFJGFBSAFKDSD_files/libs.min.173.js.download"></script>
+<script src="./SGJFJGFBSAFKDSD_files/app.min.173.js.download"></script>
+<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-231012-7', {sampleRate: 5});
+//		ga('send', 'pageview');
+	</script> <script>
+        if(null || paid()) {
+            document.write('<body class="skin'+skinId()+'">');
+        } else {
+            document.write('<body class="compact skin'+skinId()+'">');
+        }
+    </script><script src="./SGJFJGFBSAFKDSD_files/pubads_impl_150.js.download" async=""></script><link rel="prefetch" href="https://securepubads.g.doubleclick.net/static/3p_cookie.html"></head>
+<body class="compact skin0">
+<div class="page-wrap">
+<div id="header">
+	<div class="app-header back-to-lessons-header">
+		<div class="inner-content">
+			
+				<a href="https://www.typing.com/student/test">‹ Back to Typing Tests</a>
+			
+
+			
+				<a href="https://www.typing.com/student/login" class="log-out-link">Log In</a>
+			
+		</div>
+	</div>
+
+</div>
+
+<div class="app-content">
+<script type="text/template" id="anon-callout-template">
+                    <div class="registration-callout">
+                        <div class="inner-content">
+                            You are not logged in. Your progress is not being saved!
+
+                            <a href="/student/signup" class="button button-small">Create Free Account</a>
+                        </div>
+                    </div>
+                </script>
+<script>
+                    if(!loggedIn()){
+                        document.write(document.getElementById('anon-callout-template').textContent);
+                    }
+                </script>
+                    <div class="registration-callout">
+                        <div class="inner-content">
+                            You are not logged in. Your progress is not being saved!
+
+                            <a href="https://www.typing.com/student/signup" class="button button-small">Create Free Account</a>
+                        </div>
+                    </div>
+                
+<div class="tutor-content">
+<div class="inner-content clearfix">
+ <script>
+	function getAd(adCategory, adSize) {
+		adCategory = adCategory || 'other';
+
+		if(FTWGLOBALS('env') == 'local') {
+			if(adSize == '728x90') {
+				return '<img src="/dist/student/images/holder/ad_top.png" />';
+			}
+			if(adSize == '728x90_2') {
+				return '<img src="/dist/student/images/holder/ad_top.png" />';
+			}
+
+			if(adSize == '160x600') {
+				return '<img src="/dist/student/images/holder/ad_left.png" />';
+			}
+		} else {
+			if(window.adRand){
+				if(adCategory == 'tutor' && '160x600' == adSize){
+					return "<!-- TW_160x600_Tutor_ROS_Floor1 -->" +
+							"<div id='div-gpt-ad-1417386788824-0' style='width:160px; height:600px;'>" +
+							"<script type='text/javascript'>" +
+							"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386788824-0'); });" +
+							"</"+"script>" +
+							"</div>";
+				}
+				
+				if(adCategory == 'tutor' && '728x90' == adSize){
+					return "<!-- TW_728x90_Tutor_ATF_Floor1 -->" +
+							"<div id='div-gpt-ad-1417386975618-0' style='width:728px; height:90px;'>" +
+							"<script type='text/javascript'>" +
+							"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386975618-0'); });" +
+							"</"+"script>" +
+							"</div>";
+				}
+				
+				if(adCategory == 'tutor' && '728x90_2' == adSize){
+				return "<!-- TW_728x90_Tutor_BTF_Floor1 -->" +
+						"<div id='div-gpt-ad-1417387046108-0' style='width:728px; height:90px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417387046108-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+				
+				if(adCategory == 'other' && '728x90' == adSize){
+				return "<!-- TW_728x90_Other_ATF_Floor1 -->" +
+						"<div id='div-gpt-ad-1417386847302-0' style='width:728px; height:90px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386847302-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+				
+				if(adCategory == 'other' && '728x90_2' == adSize){
+				return "<!-- TW_728x90_Other_BTF_Floor1 -->" +
+						"<div id='div-gpt-ad-1417386907462-0' style='width:728px; height:90px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386907462-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+				
+				if(adCategory == 'other' && '160x600' == adSize){
+				return "<!-- TW_160x600_Other_ROS_Floor1 -->" +
+						"<div id='div-gpt-ad-1417386724995-0' style='width:160px; height:600px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386724995-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+			} else {
+				if(adCategory == 'tutor' && '160x600' == adSize){
+				return "<!-- TW_160x600_Tutor_ROS -->" +
+				"<div id='div-gpt-ad-1417386766214-0' style='width:160px; height:600px;'>" +
+					"<script type='text/javascript'>" + 
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386766214-0'); });" +
+						"</"+"script>" +
+					"</div>";
+				}
+				
+				if(adCategory == 'tutor' && '728x90' == adSize){
+				return "<!-- TW_728x90_Tutor_ATF -->" +
+						"<div id='div-gpt-ad-1417386955179-0' style='width:728px; height:90px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386955179-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+				
+				if(adCategory == 'tutor' && '728x90_2' == adSize){
+				return "<!-- TW_728x90_Tutor_BTF -->" +
+						"<div id='div-gpt-ad-1417387022672-0' style='width:728px; height:90px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417387022672-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+				
+				if(adCategory == 'other' && '728x90' == adSize){
+				return "<!-- TW_728x90_Other_ATF -->" +
+						"<div id='div-gpt-ad-1417386827185-0' style='width:728px; height:90px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386827185-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+				
+				if(adCategory == 'other' && '728x90_2' == adSize){
+				return "<!-- TW_728x90_Other_BTF -->" +
+						"<div id='div-gpt-ad-1417386881869-0' style='width:728px; height:90px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386881869-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+				
+				if(adCategory == 'other' && '160x600' == adSize){
+				return "<!-- TW_160x600_Other_ROS -->" +
+						"<div id='div-gpt-ad-1417386698845-0' style='width:160px; height:600px;'>" +
+						"<script type='text/javascript'>" +
+						"googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386698845-0'); });" +
+						"</"+"script>" +
+						"</div>";
+				}
+			}
+		}
+	}
+</script>
+<script type="text/template" id="ads-template">
+        <div class="ad-top-container">
+            <a href="/student/upgrade" class="remove-ads">Remove Ads<span>Learn More</span></a>
+            <div class="ad-top">728x90</div>
+        </div>
+                <div class="ad-left-container">
+            <div class="ad-left">160x600</div>
+        </div>
+	        </script>
+<script>
+        (function(){
+            if(paid()) return;
+            var adTemplate = document.getElementById('ads-template').textContent
+                    .replace('728x90_2', getAd('tutor', '728x90_2'))
+                    .replace('728x90', getAd('tutor', '728x90'))
+                    .replace('160x600', getAd('tutor', '160x600'));
+            document.write(adTemplate);
+        })();
+    </script>
+        <div class="ad-top-container">
+            <a href="https://www.typing.com/student/upgrade" class="remove-ads">Remove Ads<span>Learn More</span></a>
+            <div class="ad-top"><!-- TW_728x90_Tutor_ATF_Floor1 --><div id="div-gpt-ad-1417386975618-0" style="width:728px; height:90px;" data-google-query-id="COiPnK-9ttYCFRGNaQodickH-g"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386975618-0'); });</script><div id="google_ads_iframe_/35254017/TW_728x90_Tutor_ATF_Floor1_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/35254017/TW_728x90_Tutor_ATF_Floor1_0" title="3rd party ad content" name="google_ads_iframe_/35254017/TW_728x90_Tutor_ATF_Floor1_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" src="./SGJFJGFBSAFKDSD_files/saved_resource.html"></iframe></div></div></div>
+        </div>
+                <div class="ad-left-container">
+            <div class="ad-left"><!-- TW_160x600_Tutor_ROS_Floor1 --><div id="div-gpt-ad-1417386788824-0" style="width:160px; height:600px;" data-google-query-id="COePnK-9ttYCFRGNaQodickH-g"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1417386788824-0'); });</script><div id="google_ads_iframe_/35254017/TW_160x600_Tutor_ROS_Floor1_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/35254017/TW_160x600_Tutor_ROS_Floor1_0" title="3rd party ad content" name="google_ads_iframe_/35254017/TW_160x600_Tutor_ROS_Floor1_0" width="160" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" src="./SGJFJGFBSAFKDSD_files/saved_resource(1).html"></iframe></div></div></div>
+        </div>
+	        
+<div class=" content-compact " id="js-content"><div class="page-screen">
+	<div id="typing-nav"><div><!-- Breadcrumb -->
+<!-- <p class="breadcrumb"><a href="/student/lessons">Lessons</a> &gt; <a href="/student/lessons#test">test</a></p> -->
+
+<!-- Title -->
+<h4 class="lesson-name">1:00 Typing Test</h4></div></div>
+	<div id="typing-contents"><div><div id="lesson-content"><div class="page-screen page-typing-test page-screen-standard">
+	<!-- Controls -->
+	<div class="screen-controls">
+		<span class="screen-progress" style="background-size: 37.88% 100%;" id="screenProgress"><span>0:38</span></span>
+        <span class="button button-small button-restart tooltip-trigger" data-tooltip="Restart Test">↻</span>
+	</div>
+	<!-- Lesson Content -->
+	<div class="screen screen-test">
+		<div id="typingContent" style="position: absolute;">
+			
+			<div class="line">
+				
+				<span class="letter typed">S</span>
+				
+				<span class="letter typed">e</span>
+				
+				<span class="letter typed error">d<div class="error-letter" style="color: red; opacity: 0; transform: translateY(0px); display: none;">f</div></span>
+				
+				<span class="letter typed">i</span>
+				
+				<span class="letter typed">m</span>
+				
+				<span class="letter typed">e</span>
+				
+				<span class="letter typed">n</span>
+				
+				<span class="letter typed error">t<div class="error-letter" style="color: red; opacity: 0; transform: translateY(0px); display: none;">a</div></span>
+				
+				<span class="letter active">a</span>
+				
+				<span class="letter">r</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">E</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">,</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">w</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">.</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">T</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">,</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">g</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">,</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">,</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">p</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">.</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">I</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">v</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">g</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter ">,</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">p</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter ">.</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">T</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">g</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">g</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">.</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">S</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">g</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">v</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">p</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">v</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">g</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">b</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">.</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">C</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">p</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">.</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">M</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">h</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">g</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">.</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">S</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">d</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">y</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">m</span>
+				
+				<span class="letter ">p</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">n</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">t</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">r</span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+			<div class="line">
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">k</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">c</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">a</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter ">,</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">o</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">s</span>
+				
+				<span class="letter ">i</span>
+				
+				<span class="letter ">l</span>
+				
+				<span class="letter "> </span>
+				
+				<span class="letter ">f</span>
+				
+				<span class="letter ">u</span>
+				
+				<span class="letter ">e</span>
+				
+				<span class="letter ">
+</span>
+				
+			</div>
+			
+		</div>
+	</div>
+</div></div>
+
+<div id="keyboard-content"></div></div></div>
+	<div id="typing-progress"></div>
+	<div class="ios-overlay" id="ios-overlay">
+		<span>⚠</span>
+		<p>Mobile Keyboard Disabled!</p>
+		<p>Tap here to return focus to the keyboard.</p>
+	</div>
+
+	<input class="mobile-input" id="mobile-input" type="password"> <!-- mobile keyboard input -->
+
+	
+</div></div>
+</div>
+</div>
+</div>
+<div class="skin-asset-1"></div>
+<div class="skin-asset-2"></div>
+<div class="skin-asset-3"></div>
+</div>
+<div class="app-footer clearfix">
+<div class="navigation">
+<a href="https://www.typing.com/" class="logo">typing<span>.com</span><em>a teaching.com product</em></a>
+<ul class="main-nav">
+<li><a href="https://www.typing.com/teacherportal">Teacher Portal</a></li>
+<li><a href="https://www.typing.com/student">Lessons</a></li>
+<li><a href="https://www.typing.com/student/test">Test</a></li>
+<li><a href="https://www.typing.com/student/games">Games</a></li>
+<li><a href="https://www.typing.com/student/skins">Skins</a></li>
+<li><a href="https://www.typing.com/student/badges">Badges</a></li>
+</ul>
+<ul class="sub-nav">
+</ul>
+</div>
+</div>
+<a href="https://www.typing.com/student/test/1#" class="support-tab" id="supportTab" style="display: block;">Support</a>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8a681dbb8f","applicationID":"5003432","transactionName":"MVdVZBNTChAEAhIPCggddEUSRgsOShISEwEDXEMfFVcXF0pL","queueTime":0,"applicationTime":77,"atts":"HRBWEltJGR4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<div class="tooltip" style="display: none;"></div><iframe id="google_osd_static_frame_8331295926022" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./SGJFJGFBSAFKDSD_files/saved_resource(2).html"></iframe></body></html>

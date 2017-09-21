@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0171)https://tpc.googlesyndication.com/sadbundle/$csp%3Der3%26dns%3Doff$/991140231862752066/160x600_1/index.html#t=4817077128267377708&p=https%3A%2F%2Ftpc.googlesyndication.com -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./exitapi-impl.js.download" type="text/javascript"></script><script src="./addata.js.download" type="text/javascript"></script><meta content="width=160,height=600" name="ad.size"><title></title><script type="text/javascript">
+	var clickTag = "http://www.google.com"; 
+</script><script src="./tweenmax_1.18.0_499ba64a23378545748ff12d372e59e9_min.js.download" type="text/javascript"></script><style type="text/css">
+	img {
+		border: 0;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		cursor: pointer;
+		border: 0;
+	}
+	
+	.default{
+	  position: absolute;
+	  left:-.5px;
+	  top:-.5px;
+	}
+	#mainContainer {
+		cursor: pointer;
+	    position: absolute;
+		width: 160px;
+		height: 600px;
+		border: 1px solid #767676;
+		box-sizing: border-box;
+		background-color: #FFFFFF;
+		/*background-image: url('pic.png');*/
+		overflow: hidden;
+		display: none;
+	}
+	#t0 {
+		left: 160px;
+	}
+	#mask {
+		overflow: hidden;
+		width: 160px;
+		height: 600px;
+	}
+</style></head><body onclick="ExitApi.exit();" style="cursor:pointer">
+
+
+
+
+
+
+
+
+
+  <a href="javascript:window.open(window.clickTag)">
+	<div id="mainContainer" style="display: block;">
+		<div class="default" id="mask" style="height: 600px;">
+			<img class="default" id="bk" src="./bk.png">
+			<img class="default" id="t1" src="./t1.png" style="opacity: 0.0272047;">
+			<img class="default" id="t2" src="./t2.png" style="opacity: 0.846107;">
+			<img class="default" id="t3" src="./t3.png" style="opacity: 0;">
+			<img class="default" id="cta" src="./cta.png" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">
+		</div>
+
+		<img class="default" id="t0" src="./t0.png" style="transform: matrix(1, 0, 0, 1, -6000, 0); opacity: 0;">
+		<img class="default" id="logo" src="./logo.png" style="opacity: 1; transform: matrix(1, 0, 0, 1, 600, 0);">
+		<img class="default" id="logo2" src="./logo2.png" style="opacity: 1;">
+	</div>
+</a>
+<script type="text/javascript">
+	window.onload = function(){
+
+		var tl = new TimelineMax({repeat:1, repeatDelay: 0});
+
+		tl.to(t0, 2, { ease:Linear.easeNone, x: -6000 });
+
+		tl.from(logo, 1, { ease:Expo.easeOut, alpha: 0 }, "-=.25");
+
+		tl.to(t0, 1, { ease:Expo.easeOut, alpha: 0 }, "+=.5");
+
+		tl.to(logo, 1.5, { ease:Expo.easeInOut, x: 600 }, "-=1");
+		tl.from(mask, 1.5, { ease:Expo.easeInOut, height: 0 }, "-=1.25");
+		tl.from(logo2, 1, { ease:Expo.easeOut, alpha: 0 }, "-=.55");
+
+		tl.to(t1, 1, { ease:Expo.easeOut, alpha: 0 }, "+=1.5");
+		tl.from(t2, 1, { ease:Expo.easeOut, alpha: 0 }, "-=.75");
+
+		tl.to(t2, 1, { ease:Expo.easeOut, alpha: 0 }, "+=1.5");
+		tl.from(t3, 1, { ease:Expo.easeOut, alpha: 0 }, "-=.75");
+		tl.from(cta, 1, { ease:Expo.easeOut, alpha: 0 }, "-=1");
+
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 3 });
+		tl.to(cta, .2, { ease:Quad.easeInOut, x: 0 });
+
+		console.log(tl.totalDuration());
+
+		mainContainer.style.display = "block";
+
+	}
+
+</script>
+
+</body></html>

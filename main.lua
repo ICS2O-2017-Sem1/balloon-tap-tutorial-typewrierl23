@@ -12,6 +12,11 @@ background.y = display.contentCenterY
 
 local music = audio.loadSound( "Maid with the Flaxen Hair.mp3"  )
 audio.play ( music )
+audio.play ( music )
+audio.play ( music )
+audio.play ( music )
+audio.play ( music )
+audio.play ( music )
 
 local tapText = display.newText( tapCount, display.contentCenterX, 20, native.sysemFont, 40 )
 tapText:setFillColor (0.434463,0.24134,1)
@@ -32,7 +37,7 @@ local physics = require( "physics" )
 physics.start()
 
 physics.addBody( platform, "static", {bounce=0} )
-physics.addBody( platform1, "static", {bounce=0.5} )
+physics.addBody( platform1, "static", {bounce=1} )
 physics.addBody( balloon, "dynamic", {radius=50, bounce=0 })
 
 local function pushBalloon()
@@ -42,3 +47,11 @@ tapText.text = tapCount
 end
 
 balloon:addEventListener( "tap", pushBalloon )
+
+local function reset()
+  tapCount =0
+  tapText.text = tapCount
+  
+end
+
+platform:addEventListener("collision", reset)
